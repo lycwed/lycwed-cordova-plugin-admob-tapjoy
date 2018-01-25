@@ -1,0 +1,31 @@
+{
+  "name": "lycwed-cordova-plugin-admob-tapjoy",
+  "version": "1.0.0",
+  "description": "Cordova AdMob Mediation Plugin for Tapjoy",
+  "scripts": {
+    "version": "sync-package-version --cordova-plugin"
+  },
+  "cordova": {
+    "id": "lycwed-cordova-plugin-admob-tapjoy",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": "lycwed/lycwed-cordova-plugin-admob-tapjoy",
+  "author": "Lycwed",
+  "license": "MIT",
+  "keywords": [
+    "cordova-android",
+    "cordova-ios",
+    "cordova",
+    "plugin",
+    "admob",
+    "tapjoy",
+    "mediation"
+  ],
+  "bugs": {
+    "url": "https://github.com/lycwed/lycwed-cordova-plugin-admob-tapjoy/issues"
+  },
+  "homepage": "https://github.com/lycwed/lycwed-cordova-plugin-admob-tapjoy"
+}
