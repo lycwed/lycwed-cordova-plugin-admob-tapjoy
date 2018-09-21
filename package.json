@@ -1,6 +1,6 @@
 {
   "name": "lycwed-cordova-plugin-admob-tapjoy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cordova AdMob Mediation Plugin for Tapjoy",
   "scripts": {
     "version": "sync-package-version --cordova-plugin"
@@ -16,6 +16,7 @@
   "author": "Lycwed",
   "license": "MIT",
   "keywords": [
+    "cordova-admob-free",
     "cordova-android",
     "cordova-ios",
     "cordova",
