@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin id="lycwed-cordova-plugin-admob-tapjoy" version="1.0.3" 
+<plugin id="lycwed-cordova-plugin-admob-tapjoy" version="1.0.4" 
     xmlns="http://apache.org/cordova/ns/plugins/1.0" 
     xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -27,9 +27,8 @@
     </platform>
 
     <platform name="ios">
-        <preference name="pods_use_frameworks" value="true"/>
-        <preference name="pods_ios_min_version" value="9.0"/>
-        <pod name="GoogleMobileAdsMediationTapjoy" version="12.0.0.0" />
+        <pods-config ios-min-version="9.0" use-frameworks="true" />
+        <pod name="GoogleMobileAdsMediationTapjoy" version="11.11.1.0" />
 
         <!-- Prevents compilation failures when using pod's id with additional mediations plugins -->
         <dependency id="cordova-plugin-cocoapod-support" />
