@@ -11,8 +11,8 @@
     </engines>
 
     <platform name="android">
-        <framework src="com.tapjoy:tapjoy-android-sdk:12.0.0.1" />
-        <framework src="com.google.ads.mediation:tapjoy:12.0.0.1" />
+        <framework src="com.tapjoy:tapjoy-android-sdk:11.12.2.0" />
+        <framework src="com.google.ads.mediation:tapjoy:11.12.2.0" />
 
         <config-file parent="/manifest/application" target="AndroidManifest.xml">
             <activity android:name="com.tapjoy.TJAdUnitActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:hardwareAccelerated="true" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
